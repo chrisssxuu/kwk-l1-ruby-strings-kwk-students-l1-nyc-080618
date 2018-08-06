@@ -5,7 +5,7 @@ puts "What is the name of the guest attending?"
 guest_name = gets.chomp.capitalize
 
 puts "What is the name of the party?"
-guest_name = gets.chomp.capitalize
+party_name = gets.chomp.capitalize
 
 puts "When is the party happening?"
 date = gets.chomp
@@ -15,3 +15,5 @@ time = gets.chomp
 
 puts "What is the name of the host?"
 host_name = gets.chomp.capitalize
+
+puts "Dear #{guest_name}, You are cordially invited to the #{party_name} on #{date} at #{time}"
